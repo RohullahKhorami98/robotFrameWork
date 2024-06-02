@@ -1,6 +1,10 @@
 *** Settings ***
 Library    OperatingSystem
-#This is command
+
+*** Variables ***
+
 *** Test Cases ***
 Test HelloWorld
     ${output}=    Run    python helloworld.py
+
+*** Keywords ***
